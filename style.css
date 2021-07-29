@@ -1,0 +1,59 @@
+.body-bg {
+    background-color: #fafafa;
+}
+
+/*=== NAVBAR ===*/
+.nav-top {
+    height: 63px;
+    background-color: white !important;
+    border-top: 0.5px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    padding-left: 15% !important;
+    padding-right: 15% !important;
+}
+
+.nav-container a {
+    cursor: pointer;
+}
+
+.form-control {
+    border-radius: 0.2rem !important;
+    padding: 2% !important;
+    background-color: #fafafa !important;
+    text-align: center;
+    font-size: 1rem !important;
+}
+#icon {
+    background-image: url(images/search.svg);
+    background-size: 8%;
+    background-repeat: no-repeat;
+    background-position: 2.2rem;
+}
+.nav-items {
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+.nav-items a {
+    margin: 0 1rem;
+}
+
+.img-nav {
+    border-radius: 100%;
+    -o-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    max-width: 30px;
+    max-height: 50px;
+}
+
+.icons {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+}
