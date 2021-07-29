@@ -10,11 +10,10 @@
     border-bottom: 1px solid #dbdbdb;
 }
 
-.nav-container {
+header .nav-container {
     display: flex;
     align-items: center;
-    padding-left: 15% !important;
-    padding-right: 15% !important;
+    margin: 0 22%;
 }
 
 .nav-container a {
@@ -23,22 +22,25 @@
 
 .form-control {
     border-radius: 0.2rem !important;
-    padding: 2% !important;
+    padding: 1% !important;
     background-color: #fafafa !important;
     text-align: center;
     font-size: 1rem !important;
 }
+
 #icon {
     background-image: url(images/search.svg);
     background-size: 8%;
     background-repeat: no-repeat;
     background-position: 2.2rem;
 }
+
 .nav-items {
     display: flex;
     align-items: center;
-    width: 30%;
+    width: 22%;
 }
+
 .nav-items a {
     margin: 0 1rem;
 }
@@ -56,4 +58,61 @@
     font-size: 1.5rem;
     text-decoration: none;
     color: black;
+}
+
+/*=== PROFILE ===*/
+.img-profile {
+    border-radius: 100%;
+    -o-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    max-width: 12.5rem;
+    max-height: 9.4rem;
+}
+
+.row-top {
+    padding-top: 1.25rem;
+}
+
+.user-dates {
+    padding-top: 1.25rem;
+    padding-bottom: 0.625rem;
+}
+
+.username {
+    font-weight: 300;
+    font-size: 1.75rem;
+}
+
+.name {
+    font-size: 1.2rem;
+    display: inline;
+    font-weight: 600;
+}
+
+.profile-datas {
+    font-size: 1.1rem;
+}
+
+.profile-desc {
+    font-size: 1rem;
+}
+
+.col-7 .col-4.col-lg-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-4.col-lg-6 .button-edit {
+    color: black;
+    font-size: 0.875rem;
+    font-weight: 700 bold;
+    border-color: #dae1e7;
+    margin-right: 1rem;
+    margin-left: -4rem;
+}
+
+.col-4.col-lg-6 .button-edit.btn {
+    padding: 0.4rem 0.5rem;
 }
