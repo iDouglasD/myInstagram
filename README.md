@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="MyInstagram" title="MyInstagram" src="images/logo.png" width= 20%/>
+  <img alt="MyInstagram" title="MyInstagram" src="images/logo.png" width= 30%/>
 </h1>
 </h1>
 <p align="center">
