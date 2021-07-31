@@ -116,3 +116,20 @@ header .nav-container {
 .col-4.col-lg-6 .button-edit.btn {
     padding: 0.4rem 0.5rem;
 }
+
+/*=== STORIES ===*/
+
+.stories-circle {
+    padding-top: 0;
+    display: flex;
+}
+
+.stories-text {
+    padding-bottom: 2.5rem;
+}
+
+.stories {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+}
