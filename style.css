@@ -4,8 +4,8 @@
 
 /*=== NAVBAR ===*/
 .nav-top {
-    height: 63px;
-    background-color: white !important;
+    height: 4rem;
+    background-color: white;
     border-top: 0.5px solid #dbdbdb;
     border-bottom: 1px solid #dbdbdb;
 }
@@ -21,11 +21,11 @@ header .nav-container {
 }
 
 .form-control {
-    border-radius: 0.2rem !important;
-    padding: 1% !important;
-    background-color: #fafafa !important;
+    border-radius: 0.2rem;
+    padding: 1%;
+    background-color: #fafafa;
     text-align: center;
-    font-size: 1rem !important;
+    font-size: 1rem;
 }
 
 #icon {
@@ -50,8 +50,8 @@ header .nav-container {
     -o-border-radius: 100%;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
-    max-width: 30px;
-    max-height: 50px;
+    max-width: 1.875rem;
+    max-height: 3.125rem;
 }
 
 .icons {
@@ -132,4 +132,173 @@ header .nav-container {
     text-align: center;
     font-size: 1rem;
     font-weight: 600;
+}
+
+/*=== Feed Line ===*/
+
+.line {
+    size: 5;
+    width: 100%;
+    color: #3a3b3b;
+    margin: 0;
+    z-index: -1;
+}
+
+ul.nav.nav-tabs.nav-feed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.nav-item a.nav-link.active {
+    color: black;
+    background-color: #fafafa;
+    border-radius: 0;
+    border: none;
+    border-top: 1px solid rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+.nav-item a.nav-link {
+    color: grey;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav-item a.nav-link i {
+    margin-right: 0.2rem;
+}
+
+/*=== Feed Pictures ===*/
+.row.row-feed {
+    padding-bottom: 1.6rem;
+}
+
+.row.row-feed .col-4 .card {
+    border: 0 solid rgba(0, 0, 0, 0.125);
+    border-radius: 0;
+}
+
+.card img.card-img-top {
+    border-radius: 0;
+}
+
+/*=== Responsive ===*/
+@media (max-width: 746px) {
+    /*=== NAVBAR ===*/
+    .nav-top {
+        height: 3.5rem;
+    }
+
+    header .container-fluid.nav-container {
+        margin: 0;
+        justify-content: space-evenly;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .nav-container a {
+        cursor: pointer;
+    }
+    a.navbar-brand img {
+        margin: 0;
+    }
+
+    form .form-control.me-2 {
+        padding: 0;
+        margin: 0;
+    }
+
+    #icon {
+        width: 80%;
+        background-size: 8%;
+        background-repeat: no-repeat;
+        background-position: 1.7rem;
+    }
+
+    .container-fluid.nav-container .nav-items i {
+        width: 1%;
+    }
+
+    .nav-items a {
+        margin: 0 0.4rem;
+        align-items: left;
+    }
+
+    .navbar.navbar-light.nav-top .nav-items img.img-nav {
+        width: 1.2rem;
+    }
+
+    .icons {
+        font-size: 1.2rem;
+    }
+
+    /*=== PROFILE ===*/
+
+    .img-profile {
+        max-width: 8rem;
+        max-height: 6rem;
+    }
+
+    .row-top {
+        padding-top: 1.25rem;
+    }
+
+    .user-dates {
+        padding-top: 1.25rem;
+        padding-bottom: 0.625rem;
+    }
+
+    .username {
+        font-size: 1rem;
+    }
+
+    .name {
+        font-size: 1rem;
+    }
+
+    .profile-datas {
+        font-size: 1rem;
+    }
+
+    p.profile-datas strong {
+        display: flex;
+        margin-right: 0.2rem;
+    }
+
+    .profile-desc {
+        font-size: 1rem;
+    }
+
+    .col-4.col-lg-6 .button-edit {
+        margin-right: 1rem;
+        margin-left: -4rem;
+    }
+
+    .col-4.col-lg-6 .button-edit.btn {
+        padding: 0.2rem 0.5rem;
+    }
+
+    /*=== STORIES ===*/
+
+    .stories-circle .row {
+        display: flex;
+        align-items: center;
+        margin-right: -4rem;
+    }
+
+    .stories-text {
+        padding-bottom: 2.5rem;
+        margin-right: -4rem;
+        margin-left: 1.6rem;
+    }
+
+    .stories {
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 600;
+    }
 }
