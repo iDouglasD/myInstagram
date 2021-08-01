@@ -10,7 +10,6 @@
 </p>
 
 <br>
-
 <p align="center">
   <img alt="MyInstagram" src=".github/mockup.png" width="100%">
 </p>
