@@ -8,7 +8,12 @@
    <a href="#-icones">Ícones</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
+
 <br>
+
+<p align="center">
+  <img alt="MyInstagram" src=".github/mockup.png" width="100%">
+</p>
 
 ## 🚀 Tecnologias
 
